@@ -8,5 +8,5 @@ class RealPokemon extends Model
 {
     use HasFactory;
 
-    protected $fillable = ['nombre','ataque','defensa','sexo','descripción'];
+    protected $fillable = ['nombre','ataque','defensa','sexo','tipo','descripción'];
 }

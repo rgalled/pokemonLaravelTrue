@@ -18,6 +18,7 @@ return new class extends Migration
             $table->integer('defensa');
             $table->string('sexo',50);
             $table->text('descripción');
+            $table->string('tipo');
             $table->timestamps();
         });
     }
